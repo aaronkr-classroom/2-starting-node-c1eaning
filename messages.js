@@ -2,11 +2,19 @@
 "use strict";
 
 // @TODO: 3개의 문자열 messages 배열 만들어 주세요.
-let messages;
+let messages=[
+    "I am sleepy",
+    "I am hungry",
+    "Hello sleepy,hello hungry."
+];
 
 // @TODO: messages 배열에서 각 메시지를 인쇄하는 함수를 만들어 주세요.
-let printMsgs;
-
+let printMsgs=()=>{
+    for(let i=0;i<messages.length;i++){
+        console.log(messages[i]);
+    }
+};
+printMsgs();
 
 
 
